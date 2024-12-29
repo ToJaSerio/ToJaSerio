@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to right, red, pink);
+    transform: scale(1.6)
+}
+.cal{
+    width: 180px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    background: linear-gradient(to right, pink, blueviolet);
+    border-radius: 15px;
+    border: 3px solid #0d0047;
+}
+.but{
+    text-align: center;
+}
+input{
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border: 3px solid #0d0047;
+}
+button{
+    border: 3px solid #0d0047;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 15px;
+    transition: transform 0.5s ease, background-color 0.2s ease;
+    background-color: #ffffff;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: #cccccc;
+}
+h1{
+    text-align: center;
+}
